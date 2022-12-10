@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@100;200;300;400;500 & display=swap');
+
+*{
+    font-family:'Poppins, 'sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+}
+
+
+
+html{
+    font-size: 62.4%;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #f9f9f9;
+}
+
+section{
+    min-height: 100vh;
+    padding: 0 9%;
+    padding-top: 7.5rem;
+    padding-bottom: 2rem;
+}
+
+
+
+header{
+    position:relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(40, 187, 106);
+    box-sizing: 0 .5rem 1rem rgb(0, 0, 0, .1);
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+header .logo{
+    font-size: 5rem;
+}
+
+header .logo span{
+    color: rgb(32, 18, 233);
+}
+
+
+.inicioo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.inicioo .imagee img{
+    width: 50vh;
+    animation: float 3s linear infinite;
+}
+
+@keyframes float {
+    0%, 100%{
+        transform: translateY(0rem);
+    }
+    50%{
+        transform: translateY(-3.5rem);
+    }
+}
+
+.inicioo .imagen img{
+    width: 70vh;
+    animation: float 3s linear infinite;
+}
+
+@keyframes float {
+    0%, 100%{
+        transform: translateY(0rem);
+    }
+    50%{
+        transform: translateY(-3.5rem);
+    }
+}
+
+.inicioo .contentt h3{
+    font-size: 5.5rem;
+    color: rgb(40, 187, 106);;
+    text-transform: uppercase;
+}
+
+.inicioo .contentt p{
+    font-size: 2.5rem;
+    color: black;
+    padding: 1rem 0;
+}
+
+
+
